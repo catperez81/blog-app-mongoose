@@ -49,7 +49,7 @@ function generateContent() {
 
 function generateDate() {
   const publishDate = faker.date.past();
-  const publishDate = publishDate[Math.floor(Math.random() * publishDate.length);
+  const publishDate = publishDate[Math.floor(Math.random() * publishDate.length)];
   return {
     date: faker.date.past()
   };
