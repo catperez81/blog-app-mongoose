@@ -1,5 +1,9 @@
 'use strict';
 
+const chai = require('chai');
+const chaiHttp = require('chai-http');
+chai.use(chaiHttp);
+
 const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
